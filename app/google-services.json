@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "426871302554",
+    "project_id": "accident-detection-syste-31711",
+    "storage_bucket": "accident-detection-syste-31711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426871302554:android:494edfb4d0f22302743223",
+        "android_client_info": {
+          "package_name": "com.example.accidentdetectionsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426871302554-1ujejjfdgs9cor4ukn18pdso8tdl99rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoyHG9q-raRLlNXwtgr26eT6fkbUTf4zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426871302554-1ujejjfdgs9cor4ukn18pdso8tdl99rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
