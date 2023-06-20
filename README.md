@@ -39,21 +39,11 @@ Then the algorithm can be expressed mathematically as:
 
 The Guardian Drive application utilizes the following technologies and tools:
 
--  Java: The primary programming language used for Android application development.
--  Android SDK: Provides the necessary tools and libraries for developing Android applications.
--  Firebase: A comprehensive mobile development platform used for real-time data storage, messaging, and user authentication.
--  Volley: A networking library for handling HTTP requests and responses in Android applications.
--  Glide: An image loading and caching library for Android applications.
-
-## Screenshots
-![Splash Screen](https://photos.app.goo.gl/7S8hXR84oJygJhMT7)
-![Login Page](https://photos.app.goo.gl/q45uYitToEDXtPs18)
-![Register Page](https://photos.app.goo.gl/i19RYtLXA59KNTEy7)
-![Menu](https://photos.app.goo.gl/d14DvzFabbVghuuW9)
-![Home](https://photos.app.goo.gl/NURrK4JMyS7FtNVx6)
-![Accident Detected Alarm](https://photos.app.goo.gl/PjoU4v8Q6zhj6t6L9)
-
-
+- Java: The primary programming language used for Android application development. ![Java](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fjava-introduction&psig=AOvVaw20bZryMyvgCvM9HwzXpRhq&ust=1687372535360000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDG1da-0v8CFQAAAAAdAAAAABAE)
+- Android SDK: Provides the necessary tools and libraries for developing Android applications. ![Android](https://path-to-your-android-logo-image.png)
+- Firebase: A comprehensive mobile development platform used for real-time data storage, messaging, and user authentication. ![Firebase](https://path-to-your-firebase-logo-image.png)
+- Volley: A networking library for handling HTTP requests and responses in Android applications.
+- Glide: An image loading and caching library for Android applications.
 
 Feel free to explore and use Guardian Drive to enhance safety and raise awareness about road accidents. Your feedback and contributions are highly appreciated! 😄🚗📱
 
