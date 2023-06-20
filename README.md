@@ -1,28 +1,47 @@
-    # Gardian Drive
+# Guardian Drive 🚗📱
 
-This Readme file provides an overview of the Gardian Drive app, which is an accident detection and messaging application. The app utilizes various tools such as Glide, Volley, Firebase Authentication, and Firebase Firestore to enhance its functionality.
+![Guardian Drive Logo](https://example.com/guardian_drive_logo.png)
 
-## Tools Used
+Guardian Drive is an Android application designed to detect accidents through mathematical calculations of the built-in sensor data on the user's device. It raises alerts to the user within a 30-second window, and if the user fails to respond, the application automatically sends messages to the emergency contacts along with the accident location.
 
-The following tools are utilized in the development of Gardian Drive:
+## Features
 
-- **Glide**: Gardian Drive uses Glide for efficient image loading and caching. It significantly improves the speed and smoothness of image loading. 🌠 [Glide Documentation](https://bumptech.github.io/glide/)
+- Accident Detection: Utilizes advanced mathematical calculations using device sensors to detect potential accidents.
+- Alert System: Notifies the user with an alarm and vibration for immediate attention.
+- Emergency Contact Messaging: Automatically sends messages to emergency contacts with the accident location if the user doesn't respond within 30 seconds.
+- User-Friendly Interface: Provides a simple and intuitive user interface for seamless interaction.
 
-- **Volley**: Volley is employed for handling network connections in Gardian Drive. It offers robust functionality for managing network requests and responses, ensuring efficient communication with external services. 🌐 [Volley Documentation](https://developer.android.com/training/volley)
+## Algorithm
 
-- **Firebase Authentication**: Gardian Drive integrates Firebase Authentication to provide secure user authentication. It ensures that users' identities are verified and their data remains protected. 🔒 [Firebase Authentication Documentation](https://firebase.google.com/docs/auth)
+The Guardian Drive application employs the following algorithm for accident detection:
 
-- **Firebase Firestore**: Firestore is utilized in Gardian Drive for real-time database management. It enables efficient storage and retrieval of data, facilitating seamless communication and data synchronization. 💾 [Firebase Firestore Documentation](https://firebase.google.com/docs/firestore)
+**Input:** gForce, pressure, speed, sound, SVP, ET, MP  
+**Output:** Accident detection result  
 
-![Firebase Logo](https://firebase.google.com/images/brand-guidelines/logo-standard.png)
+1. Calculate the combined weighted value:  
+   - **`combined_weighted_value = weighted_gForce + weighted_sound + weighted_pressure`**
 
+2. Check if an accident is detected:  
+   - **If** `combined_weighted_value ≥ 1` **and** `speed ≥ threshold_speed`, **then** **return** `true`  
+   - **Else if** `combined_weighted_value + (SVP / 2.06) ≥ 3`, **then** **return** `true`  
+   - **Else if** `combined_weighted_value ≥ 1` **and** `ET < MP`, **then** **return** `true`  
+   - **Else**, **return** `false`  
 
-## Accident Detection
+## Technology Stack
 
-Gardian Drive employs logical mathematical operations and fuzzy logic algorithms for accident detection. The app utilizes a combination of sensors, including accelerometer, gyroscope, and magnetometer, to detect changes in the vehicle's motion. By analyzing the data from these sensors, the app calculates the probability of an accident. When the probability exceeds a certain threshold, the app promptly sends an alert message to the emergency contacts specified by the user. 📈🚨
+The Guardian Drive application utilizes the following technologies and tools:
 
-## Conclusion
+- ![Java Logo](https://example.com/java_logo.png) Java: The primary programming language used for Android application development.
+- ![Android SDK Logo](https://example.com/android_sdk_logo.png) Android SDK: Provides the necessary tools and libraries for developing Android applications.
+- ![Firebase Logo](https://example.com/firebase_logo.png) Firebase: A comprehensive mobile development platform used for real-time data storage, messaging, and user authentication.
+- ![Volley Logo](https://example.com/volley_logo.png) Volley: A networking library for handling HTTP requests and responses in Android applications.
+- ![Glide Logo](https://example.com/glide_logo.png) Glide: An image loading and caching library for Android applications.
 
-Gardian Drive is an efficient accident detection and messaging app that makes use of various tools, including Glide, Volley, Firebase Authentication, and Firebase Firestore. By incorporating logical mathematical operations and fuzzy logic, it can accurately detect potential accidents based on data from different sensors. The app aims to provide a user-friendly experience and enhance user safety while driving. 📱🚦
+## Screenshots
 
-Please let me know if there's anything specific you would like to add or if you have any further questions!
+![Screenshot 1](https://example.com/screenshot_1.png)
+![Screenshot 2](https://example.com/screenshot_2.png)
+![Screenshot 3](https://example.com/screenshot_3.png)
+
+Feel free to explore and use Guardian Drive to enhance safety and raise awareness about road accidents. Your feedback and contributions are highly appreciated! 😄🚗📱
+
