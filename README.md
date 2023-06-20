@@ -46,6 +46,12 @@ The Guardian Drive application utilizes the following technologies and tools:
 -  Glide: An image loading and caching library for Android applications.
 
 ## Screenshots
+![Splash Screen](https://photos.app.goo.gl/7S8hXR84oJygJhMT7)
+![Login Page](https://photos.app.goo.gl/q45uYitToEDXtPs18)
+![Register Page](https://photos.app.goo.gl/i19RYtLXA59KNTEy7)
+![Menu](https://photos.app.goo.gl/d14DvzFabbVghuuW9)
+![Home](https://photos.app.goo.gl/NURrK4JMyS7FtNVx6)
+![Accident Detected Alarm](https://photos.app.goo.gl/PjoU4v8Q6zhj6t6L9)
 
 
 
