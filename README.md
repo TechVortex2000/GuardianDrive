@@ -14,6 +14,16 @@ Guardian Drive is an Android application designed to detect accidents through ma
 ## Algorithm
 
 The Guardian Drive application employs the following algorithm for accident detection:
+The given algorithm can be represented in mathematical equations as follows:
+
+Let:
+- `combined_weighted_value` be the combined weighted value calculated as `weighted_gForce + weighted_sound + weighted_pressure`
+- `threshold_speed` be the threshold value for speed
+- `SVP` be the value of SVP
+- `ET` be the value of ET
+- `MP` be the value of MP
+
+Then the algorithm can be expressed mathematically as:
 
 **Input:** gForce, pressure, speed, sound, SVP, ET, MP  
 **Output:** Accident detection result  
