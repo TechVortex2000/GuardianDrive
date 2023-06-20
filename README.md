@@ -43,7 +43,7 @@ The Guardian Drive application utilizes the following technologies and tools:
 
 - ![Java Logo](https://example.com/java_logo.png) Java: The primary programming language used for Android application development.
 - ![Android SDK Logo](https://example.com/android_sdk_logo.png) Android SDK: Provides the necessary tools and libraries for developing Android applications.
-- ![Firebase Logo](https://example.com/firebase_logo.png) Firebase: A comprehensive mobile development platform used for real-time data storage, messaging, and user authentication.
+- ![Firebase Logo](https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/logo_RdHo7Lf.png) Firebase: A comprehensive mobile development platform used for real-time data storage, messaging, and user authentication.
 - ![Volley Logo](https://example.com/volley_logo.png) Volley: A networking library for handling HTTP requests and responses in Android applications.
 - ![Glide Logo](https://example.com/glide_logo.png) Glide: An image loading and caching library for Android applications.
 
