@@ -1,7 +1,5 @@
 # Guardian Drive 🚗📱
 
-![Guardian Drive Logo](https://example.com/guardian_drive_logo.png)
-
 Guardian Drive is an Android application designed to detect accidents through mathematical calculations of the built-in sensor data on the user's device. It raises alerts to the user within a 30-second window, and if the user fails to respond, the application automatically sends messages to the emergency contacts along with the accident location.
 
 ## Features
@@ -41,17 +39,20 @@ Then the algorithm can be expressed mathematically as:
 
 The Guardian Drive application utilizes the following technologies and tools:
 
-- ![Java Logo](https://example.com/java_logo.png) Java: The primary programming language used for Android application development.
-- ![Android SDK Logo](https://example.com/android_sdk_logo.png) Android SDK: Provides the necessary tools and libraries for developing Android applications.
-- ![Firebase Logo](https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/logo_RdHo7Lf.png) Firebase: A comprehensive mobile development platform used for real-time data storage, messaging, and user authentication.
-- ![Volley Logo](https://example.com/volley_logo.png) Volley: A networking library for handling HTTP requests and responses in Android applications.
-- ![Glide Logo](https://example.com/glide_logo.png) Glide: An image loading and caching library for Android applications.
+-  Java: The primary programming language used for Android application development.
+-  Android SDK: Provides the necessary tools and libraries for developing Android applications.
+-  Firebase: A comprehensive mobile development platform used for real-time data storage, messaging, and user authentication.
+-  Volley: A networking library for handling HTTP requests and responses in Android applications.
+-  Glide: An image loading and caching library for Android applications.
 
 ## Screenshots
 
-![Screenshot 1](https://example.com/screenshot_1.png)
-![Screenshot 2](https://example.com/screenshot_2.png)
-![Screenshot 3](https://example.com/screenshot_3.png)
+![Splash Screen](https://photos.app.goo.gl/7S8hXR84oJygJhMT7)
+![Login Page](https://photos.app.goo.gl/q45uYitToEDXtPs18)
+![Register Page](https://photos.app.goo.gl/i19RYtLXA59KNTEy7)
+![Menu](https://photos.app.goo.gl/d14DvzFabbVghuuW9)
+![Home](https://photos.app.goo.gl/NURrK4JMyS7FtNVx6)
+![Accident Detected Alarm](https://photos.app.goo.gl/PjoU4v8Q6zhj6t6L9)
 
 Feel free to explore and use Guardian Drive to enhance safety and raise awareness about road accidents. Your feedback and contributions are highly appreciated! 😄🚗📱
 
